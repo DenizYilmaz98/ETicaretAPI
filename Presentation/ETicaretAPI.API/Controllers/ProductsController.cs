@@ -8,7 +8,7 @@ namespace ETicaretAPI.API.Controllers
     [ApiController]
     public class ProductsController : ControllerBase
     {
-        private readonly IProductServices _productServices;
+        private readonly IProductServices _productServices; 
 
         public ProductsController(IProductServices productServices)
         {
